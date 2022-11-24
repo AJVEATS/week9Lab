@@ -14,9 +14,8 @@ export default function accelComponent() {
     const [color, setColor] = useState(null);
 
     useEffect(() => {
-        // setColor('blue')
         if (x >= 2) {
-            console.log("x is larger than 1");
+            // console.log("x is larger than 2");
             setColor('blue')
         } else {
             setColor('black')
